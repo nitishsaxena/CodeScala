@@ -1,4 +1,4 @@
-package Excercise
+package ScalaExcercise
 
 
 object ImportantGenericFunction extends App {

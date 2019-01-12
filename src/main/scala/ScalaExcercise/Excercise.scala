@@ -1,4 +1,4 @@
-package Excercise
+package ScalaExcercise
 
 object Excercise extends App {
   def func( x : Int) : Unit = {

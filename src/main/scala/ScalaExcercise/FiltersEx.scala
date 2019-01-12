@@ -1,4 +1,4 @@
-package Excercise
+package ScalaExcercise
 
 object FiltersEx extends App {
 

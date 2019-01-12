@@ -1,4 +1,4 @@
-package Excercise
+package ScalaExcercise
 
 import org.apache.spark.sql.SQLContext
 import org.apache.spark.{SparkConf, SparkContext}

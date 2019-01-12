@@ -1,0 +1,6 @@
+package ScalaExcercise
+
+object Object {
+
+
+}
