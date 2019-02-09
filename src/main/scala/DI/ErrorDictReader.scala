@@ -1,0 +1,5 @@
+package DI
+
+object ErrorDictReader {
+
+}

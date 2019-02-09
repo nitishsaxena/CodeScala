@@ -65,20 +65,7 @@ object Object extends App {
 
   val dummy = companionExample
 
-  val list = List(1,"ABC",3,"Nitish",5)
-  println(
-  list.map{
-    case _ : String => true
-    case _ : Any => false
-  })
-
-  val list1 = List(List(1,2,3),List(4,5,6),List(7,8,9))
-  println(list1.flatten)
-  println(list1.flatMap(
-    _.filter( _ % 2 == 0)
-  ))
-
-  // Filter will return - Int , String type values but in Map it will return boolean value (because Map accept Predicates)
+  
 
 }
 /*
