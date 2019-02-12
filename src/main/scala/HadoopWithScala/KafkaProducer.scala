@@ -6,7 +6,7 @@ import org.apache.kafka.clients.producer.{KafkaProducer, ProducerRecord}
 object KafkaProducer extends App {
 
   val props = new Properties()
-  props.put("bootstrap.servers", "indlin5220.corp.amdocs.com:9092")
+  props.put("bootstrap.servers", "localhost:9092")
   props.put("acks", "1")
   props.put("key.serializer", "org.apache.kafka.common.serialization.StringSerializer")
   props.put("value.serializer", "org.apache.kafka.common.serialization.StringSerializer")
@@ -24,7 +24,7 @@ object KafkaProducer extends App {
 
 
   def createTopicIntoKafka(topic: String, numPartitions: Int, replicationFactor: Int): Unit = {
-    val zookeeperConnect = "indlin5220.corp.amdocs.com:2181"
+    val zookeeperConnect = "localhost:2181"
     val sessionTimeoutMs = 10 * 1000
     val connectionTimeoutMs = 8 * 1000
 
