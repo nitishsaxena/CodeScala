@@ -39,7 +39,7 @@ object RDDExercise extends App {
 
   //Below will send all the details of spark context with all information..
   sparkcontext.getConf.getAll.foreach(print)
-  //  O/p -- (spark.driver.port,57278)(spark.master,local[*])(spark.executor.id,driver)(spark.app.name,Practice)(spark.driver.host,DVCIO2639651.corp.amdocs.com)(spark.app.id,local-1547655266804)
+  //  O/p -- (spark.driver.port,57278)(spark.master,local[*])(spark.executor.id,driver)(spark.app.name,Practice)(spark.driver.host,localhost)(spark.app.id,local-1547655266804)
 
 
 println("*****************")
